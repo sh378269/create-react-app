@@ -1,4 +1,4 @@
-name: Build
+name: Checking my CI Build
 
 on: [push, pull_request]
 
@@ -17,3 +17,4 @@ jobs:
         run: npm ci --prefer-offline
       - name: Build
         run: npm run build
+        run: "Hello World!!"
