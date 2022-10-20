@@ -23,3 +23,5 @@ jobs:
         run: npm run prettier -- --list-different
       - name: Eslint
         run: npm run eslint -- --max-warnings 0
+      - name: Printing my
+        run: "Hello World!!"
